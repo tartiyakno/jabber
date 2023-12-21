@@ -17,7 +17,7 @@ const Ecosystem = () => {
     }
   ]
   return (
-    <div style={{
+    <div id='ecosystem' style={{
       backgroundImage: `url('/assets/Group1.svg')`,
       backgroundSize: 'cover', // Adjust as needed
       backgroundPosition: 'center', // Adjust as needed

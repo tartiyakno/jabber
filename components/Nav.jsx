@@ -83,7 +83,8 @@ const Nav = ({ check }) => {
       <div className='flex justify-between items-center w-full mt-[-5rem] lg:mt-0 p-4 lg:p-0 pt-2'>
         <a href="/">
           <div className='flex justify-center items-center gap-2'>
-            <Image src="/assets/logo.png" alt="" className="" width={74} height={74} />
+            <Image src="/assets/pic1.webp" alt="" className="rounded-full" width={74} height={74} />
+            <p className='text-[36px] font-semibold text-yellow'>Jabber World</p>
           </div>
         </a>
         <ul className='leading-[30px] text-center  justify-center items-center gap-9 xl:gap-14 hidden lg:flex text-[13px] lg:text-[12px] xl:text-[14px]'>

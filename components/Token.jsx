@@ -8,19 +8,19 @@ const Token = () => {
     },
     {
       title: "Decimal",
-      desc: "18",
+      desc: "9",
     },
     {
       title: "Network",
-      desc: "ETH",
+      desc: "BSC",
     },
     {
       title: "Token symbol",
-      desc: "HD$",
+      desc: "$JWORLD",
     }
   ]
   return (
-    <div className='flex justify-center items-center flex-col w-full h-full gap-10 pt-16 pb-24 border-b-[1px] border-[#FFF000]'>
+    <div id='token' className='flex justify-center items-center flex-col w-full h-full gap-10 pt-16 pb-24 border-b-[1px] border-[#FFF000]'>
       <p className="text-yellow text-[48px] leading-[120%] font-bold flex flex-col justify-center items-center gap-3">
         <span>Token Details</span>
         <div style={{ background: "linear-gradient(90deg, #FFF000 0%, #232323 100%)" }} className='w-[475px] h-[6px]'></div>

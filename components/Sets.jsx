@@ -33,10 +33,10 @@ const Sets = () => {
   return (
     <div className='flex justify-center items-center flex-col w-full h-full gap-10 pt-16 pb-24 border-b-[1px] border-[#FFF000]'>
       <p className="text-yellow text-[48px] leading-[120%] font-bold flex flex-col justify-center items-center gap-3">
-        <span>What Sets Apart Haku Doge</span>
+        <span>What Sets Apart Jabber World</span>
         <div style={{ background: "linear-gradient(90deg, #FFF000 0%, #232323 100%)" }} className='w-[475px] h-[6px]'></div>
       </p>
-      <p className="text-center text-[#C9C4BD] text-[16px] leading-[150%] opacity-60 w-10/12 capitalize">Experience the unmatched advantages of being a Haku Doge. Firstly, you'll enjoy transaction fee rewards generated from the buying and selling of Haku Doge tokens, providing you with a passive income stream as the token's value appreciates. Furthermore, as a valued member of Haku Doge Community, you'll be entitled to monthly rewards stemming from the combined treasury investments. This innovative approach to distributing rewards empowers you to relish the benefits of the community's collective efforts.</p>
+      <p className="text-center text-[#C9C4BD] text-[16px] leading-[150%] opacity-60 w-10/12 capitalize">Experience the unmatched advantages of being a Jabber World. Firstly, you'll enjoy transaction fee rewards generated from the buying and selling of Jabber World tokens, providing you with a passive income stream as the token's value appreciates. Furthermore, as a valued member of Haku Doge Community, you'll be entitled to monthly rewards stemming from the combined treasury investments. This innovative approach to distributing rewards empowers you to relish the benefits of the community's collective efforts.</p>
 
       <div className="flex justify-center items-center gap-6">
         {sets.map((item, index) => (
